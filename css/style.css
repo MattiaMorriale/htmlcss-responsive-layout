@@ -320,6 +320,10 @@ footer{
     color: white;
 }
 
+footer p{
+    width: 100%;
+}
+
 /* query */
 
 @media screen and (min-width: 768px){
