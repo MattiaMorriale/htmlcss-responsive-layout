@@ -199,6 +199,55 @@ main .benefits .col .card p{
     margin-bottom: 30px;
 }
 
+/* about-us */
+
+main .about-us{
+    padding: 80px 30px 90px;
+}
+
+main .about-us .text p:nth-of-type(1){
+    margin: 55px 0 70px;
+}
+
+main .about-us .text p:nth-of-type(2){
+    margin-bottom: 55px;
+}
+
+main .about-us .help strong{
+    display: block;
+
+    margin: 30px 0;
+
+    color: rgb(151,146,228);
+}
+
+/* get-started */
+
+main .get-started{
+    text-align: center;
+
+    padding: 70px 30px;
+
+    background-color:rgb(151,146,228) ;
+}
+
+main .get-started strong:nth-of-type(1){
+    display: block;
+
+    margin: 30px 0 45px;
+}
+
+main .get-started strong:nth-of-type(2){
+    display: block;
+
+    margin-bottom:45px ;
+}
+
+main .get-started .button{
+
+    margin: 40px 0;
+}
+
 /* footer */
 
 footer{
