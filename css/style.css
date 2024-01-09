@@ -10,14 +10,55 @@ body{
 
 nav{
     display: flex;
-    justify-content: space-between;
     align-items: center;
 
     height: 75px;
-
-    padding: 0 30px;
     
     background-color:rgb(0,132,253);
+}
+
+nav .menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+
+    padding: 0 30px;
+}
+
+nav .menu .int{
+    display: flex;
+    align-items: center;
+
+    gap: 30px;
+}
+
+nav .menu .int ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 30px;
+
+}
+
+nav .menu .int ul .link{
+    display: none;
+
+    text-decoration: none;
+
+    color: white;
+}
+
+nav .menu .int ul .link:nth-of-type(5){
+    color: black;
+
+    background-color: white;
+
+    padding: 6px 8px;
+
+    border-radius: 25px;
 }
 
 /* container */
@@ -78,13 +119,17 @@ main .plannig{
     padding: 40px 30px;
 }
 
-main .plannig .img-text strong{
+main .plannig  .container .img-text{
+    margin-bottom: 40px;
+}
+
+main .plannig  .container .img-text strong{
     display: block;
     
     padding: 60px 0;
 }
 
-main .plannig .app-dev{
+main .plannig .container .app-dev{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -100,15 +145,20 @@ main .plannig .app-dev{
     background-color: white;
 }
 
-main .plannig .app-dev .text{
+main .plannig  .container .app-dev .text{
     text-align: center;
 }
 
-main .plannig .app-dev .text p{
+main .plannig .container .app-dev .text p{
     padding:30px 0 ;
 }
 
 /* testimonials */
+
+main .testimonials{
+    display: flex;
+    justify-content: center;
+}
 
 main .testimonials .col{
     display: flex;
@@ -162,6 +212,9 @@ main .benefits {
 }
 
 main .benefits .title{
+    display: flex;
+    justify-content: center;
+
     margin-bottom: 70px;
 
     color: white;
@@ -207,15 +260,15 @@ main .about-us{
     padding: 80px 30px 90px;
 }
 
-main .about-us .text p:nth-of-type(1){
+main .about-us .container .text p:nth-of-type(1){
     margin: 55px 0 70px;
 }
 
-main .about-us .text p:nth-of-type(2){
+main .about-us .container .text p:nth-of-type(2){
     margin-bottom: 55px;
 }
 
-main .about-us .help strong{
+main .about-us .container .help strong{
     display: block;
 
     margin: 30px 0;
@@ -271,6 +324,22 @@ footer{
 
 @media screen and (min-width: 768px){
     
+        /* nav */
+
+        nav{
+            display: flex;
+            justify-content: center;
+    
+            padding: 0;
+        }
+    
+        nav .link{
+            display: flex;
+            justify-content: space-between;
+        }
+
+        
+
     /* 1 */
 
     main .container .col{
@@ -317,6 +386,132 @@ footer{
         display: flex;
 
         gap: 90px;
+    }
+
+    main .about-us .text{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 992px){
+     
+    /* nav */
+
+    nav{
+        display: flex;
+        justify-content: center;
+
+        padding: 0;
+    }
+
+    nav .menu{
+        display: flex;
+        justify-content: space-between;
+
+        width: 100%;
+
+        max-width: 1200px;
+
+    }
+
+    nav .menu .int ul .link{
+        display: block;
+    }
+
+    nav .menu .int strong{
+        display: none;
+    }
+
+
+    /* 1 */
+
+    main .container{
+        display: flex;
+        justify-content: center;
+    }
+
+     main .container .col{
+
+        justify-content: space-around;
+        max-width: 1200px;
+    }
+    
+    main .container .col .card{
+        width: calc(100% / 3 - 25px);
+        
+        height: 345px;
+    }
+
+    main .container .col .card:nth-of-type(1){
+        width: calc(100% / 3 * 2 - 15px);
+        min-width: 606px;
+        height: 345px;
+    }
+
+    main .container .col .card:nth-of-type(2){
+        height: 345px;
+    }
+
+    /* 2 */
+
+    main .plannig {
+        flex-wrap: nowrap;
+    }
+
+    main .plannig .container{
+        display: flex;
+        align-items: flex-end;
+
+        max-width: 875px;
+    }
+
+    main .plannig .container .app-dev{
+        height: 550px;
+    }
+
+    /* 3 */
+
+    main .testimonials{
+        padding: 0 30px;
+    }
+
+    main .testimonials .col{
+        max-width: 1140px;
+
+        padding: 70px 0 100px;
+    }
+
+    /* 4 */
+
+    main .benefits .title{
+        width: 100%;
+
+        
+    }
+
+    main .benefits .col{
+        max-width: 1140px;
+    }
+
+    main .benefits .col .card{
+        width: calc(100% / 3 - 25px);
+    }
+
+     /* 5 */
+
+     main .about-us{
+        display: flex;
+        justify-content: center;
+
+        padding: 80px 0 90px;
+
+        
+    }
+
+    main .about-us .container{
+        display: flex;
+        gap: 90px;
+        max-width: 1040px;
     }
 
     main .about-us .text{
