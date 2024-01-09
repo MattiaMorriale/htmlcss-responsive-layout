@@ -20,15 +20,13 @@ nav{
     background-color:rgb(0,132,253);
 }
 
-main{
-    padding: 50px 40px;
-}
-
 main .container .col{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 25px;
+
+    padding: 50px 30px 80px;
 }
 
 
@@ -63,7 +61,45 @@ main .container .col .card .text p{
 }
 
 main .plannig{
-    background-color:rgb(151,146,228) ;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    gap: 40px;
+
+    background-color:rgb(151,146,228);
+
+    padding: 40px 30px;
+}
+
+main .plannig .img-text strong{
+    display: block;
+    
+    padding: 60px 0;
+}
+
+main .plannig .app-dev{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    border-radius: 50px;
+
+    padding: 25px 25px;
+
+    
+    height: 615px;
+    width: 100%;
+
+    background-color: white;
+}
+
+main .plannig .app-dev .text{
+    text-align: center;
+}
+
+main .plannig .app-dev .text p{
+    padding:30px 0 ;
 }
 
 footer{
