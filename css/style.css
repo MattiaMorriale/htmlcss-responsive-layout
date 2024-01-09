@@ -55,7 +55,9 @@ main .container .col .card:first-child{
 }
 
 main .container .col .card .text{
-    text-align: left;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
 }
 
 main .container .col .card .text p{
@@ -263,4 +265,61 @@ footer{
 
     background-color: #222222;
     color: white;
+}
+
+/* query */
+
+@media screen and (min-width: 768px){
+    
+    /* 1 */
+
+    main .container .col{
+        justify-content: space-around;
+    }
+    
+    main .container .col .card{
+        width: calc(100% / 3 - 25px);
+    }
+
+    main .container .col .card:nth-of-type(1){
+        width: calc(100% / 3 * 2 - 15px);
+    }
+
+    main .container .col .card:nth-of-type(2){
+        height:605px;
+    }
+
+    /* 3 */
+
+    main .testimonials .col .card{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 30px;
+        
+        height: 280px;
+
+        text-align: justify;
+
+
+
+    }
+
+    /* 4 */
+
+    main .benefits .col .card{
+        width: calc(100% / 2 - 25px);
+    }
+
+    /* 5 */
+
+    main .about-us{
+        display: flex;
+
+        gap: 90px;
+    }
+
+    main .about-us .text{
+        width: 100%;
+    }
 }
