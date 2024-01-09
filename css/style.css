@@ -20,6 +20,8 @@ nav{
     background-color:rgb(0,132,253);
 }
 
+/* container */
+
 main .container .col{
     display: flex;
     justify-content: center;
@@ -59,6 +61,8 @@ main .container .col .card .text{
 main .container .col .card .text p{
     padding: 40px 0;
 }
+
+/* planning */
 
 main .plannig{
     display: flex;
@@ -101,6 +105,49 @@ main .plannig .app-dev .text{
 main .plannig .app-dev .text p{
     padding:30px 0 ;
 }
+
+/* testimonials */
+
+main .testimonials .col{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    gap: 30px;
+
+
+    padding: 70px 30px 100px;
+}
+
+main .testimonials .col .text{
+    text-align: center;
+
+    margin-bottom: 30px;
+}
+
+main .testimonials .col .text strong{
+    display: block;
+    padding: 40px 0;
+}
+
+main .testimonials .col  .card{
+    height: 500px;
+    width: 100%;
+
+    text-align: center;
+
+    padding: 25px 25px;
+
+    border-radius: 50px;
+
+    background-color:rgb(151,146,228);
+}
+
+main .testimonials .col  .card .ct{
+    margin: 30px 0 40px;
+}
+
+/* footer */
 
 footer{
     display: flex;
