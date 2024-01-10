@@ -351,9 +351,15 @@ main .benefits .title{
     display: flex;
     justify-content: center;
 
+    text-align: center;
+
     margin-bottom: 70px;
 
     color: white;
+}
+
+main .benefits .title strong{
+    font-size: 2em;
 }
 
 main .benefits .col{
@@ -366,7 +372,6 @@ main .benefits .col{
 }
 
 main .benefits .col .card{
-    height: 400px;
     width: 100%;
 
     border-radius: 25px;
@@ -377,17 +382,33 @@ main .benefits .col .card{
 }
 
 main .benefits .col .card strong{
+    font-size: 2em;
+
     color: rgb(151,146,228);
 }
 
 main .benefits .col .card strong:nth-of-type(2){
     display: block;
 
+    font-size: 1.5em;
+
     margin: 35px 0;
 }
 
 main .benefits .col .card p{
     margin-bottom: 30px;
+}
+
+main .benefits .col .card a{
+    text-decoration: none;
+
+    color: white;
+
+    background-color: rgb(151,146,228);
+
+    padding: 10px 50px;
+
+    border-radius: 25px;
 }
 
 /* about-us */
