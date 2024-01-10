@@ -34,6 +34,10 @@ nav .menu .int{
     gap: 30px;
 }
 
+nav .menu .int i{
+    font-size: 30px;
+}
+
 nav .menu .int ul{
     display: flex;
     align-items: center;
@@ -76,13 +80,12 @@ main .container .col{
 main .container .col .card{
     display: flex;
     justify-content: center;
+
     flex-wrap: wrap;
 
-
-    height: 360px;
     width: 100%;
 
-    padding: 40px 40px;
+    padding: 40px 20px 0 20px;
 
     background-color: #b5ddff;
 
@@ -90,19 +93,67 @@ main .container .col .card{
 
 }
 
-main .container .col .card:first-child{
-    height: 605px;
+main .container .col .card .text-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 
+    text-align: center;
 }
 
-main .container .col .card .text{
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
+main .container .col .card .text strong{
+    font-size: 20px;
+    font-weight: 700;
+
+    color: #0084fd;
+}
+
+main .container .col .card .text-2 strong{
+    padding-top: 30px;
+}
+
+main .container .col .card .text-2 i{
+    font-size: 80px;
 }
 
 main .container .col .card .text p{
     padding: 40px 0;
+
+    line-height: 30px;
+
+    font-size: 1em;
+    font-weight: bold;
+
+    color:#5a6e7f ;
+}
+
+main .container .col .card .text a{
+
+    color: white;
+
+    font-weight: 700;
+    letter-spacing: 3px;
+
+    text-decoration: none;
+
+    padding: 15px  10%;
+
+    border-radius: 25px;
+
+    background-color: #0084fd;
+}
+
+main .container .col .card .img{
+    display: flex;
+
+    margin-top: 40px;
+}
+
+main .container .col .card .img  div img{
+    display: block;
+
+    width: 100%;
 }
 
 /* planning */
@@ -351,15 +402,27 @@ footer p{
     }
     
     main .container .col .card{
+        display: flex;
+        align-items: flex-start;
+
         width: calc(100% / 3 - 25px);
     }
 
     main .container .col .card:nth-of-type(1){
+        justify-content: flex-start;
+
         width: calc(100% / 3 * 2 - 15px);
     }
 
-    main .container .col .card:nth-of-type(2){
-        height:605px;
+    main .container .col .card .text a{
+        padding: 15px 10%;
+    }
+
+    main .container .col .card .img{
+        display: flex;
+        justify-content: flex-start;
+
+        width: 55%;
     }
 
     /* 3 */
@@ -422,7 +485,7 @@ footer p{
         display: block;
     }
 
-    nav .menu .int strong{
+    nav .menu .int i{
         display: none;
     }
 
@@ -443,18 +506,46 @@ footer p{
     main .container .col .card{
         width: calc(100% / 3 - 25px);
         
-        height: 345px;
     }
+
+    main .container .col .card .text{
+        width: 100%;
+    }
+
+    main .container .col .card:nth-of-type(1) .text p{
+        width: 75%;
+
+        padding: 40px 0 55px;
+    }
+
+    main .container .col .card:nth-of-type(1) .img{
+        display: block;
+        margin-right: 5%;
+        width: 80%;
+    }
+
+    main .container .col .card:nth-of-type(1) .img div img{
+        height: 100%;
+        width: 100%;
+    }
+        
 
     main .container .col .card:nth-of-type(1){
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+
+
         width: calc(100% / 3 * 2 - 15px);
         min-width: 606px;
-        height: 345px;
+        
     }
 
-    main .container .col .card:nth-of-type(2){
-        height: 345px;
+    main .container .col .card:nth-of-type(1) .img{
+        align-self: flex-end;
+
     }
+
 
     /* 2 */
 
