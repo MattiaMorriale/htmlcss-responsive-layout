@@ -499,21 +499,65 @@ main .get-started{
     background-color:rgb(151,146,228) ;
 }
 
+main .get-started p{
+    color: white;
+
+    font-size: 1.1em;
+}
+
+main .get-started p:nth-of-type(2){
+    margin-left: auto;
+    margin-right: auto;
+
+    max-width: 460px;
+}
+
 main .get-started strong:nth-of-type(1){
     display: block;
 
-    margin: 30px 0 45px;
+    color: white;
+
+    font-size: 2em;
+
+    margin: 25px 0 0;
 }
 
 main .get-started strong:nth-of-type(2){
     display: block;
+
+    font-size: 4em;
+
+    color: #fdc15f;
 
     margin-bottom:45px ;
 }
 
 main .get-started .button{
 
+    display: block;
+
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 3px;
+
+    color: rgb(151,146,228);
+
+    background-color: white;
+
     margin: 40px 0;
+    padding: 15px 25px;
+
+    border-radius: 25px;
+
+    width: 70%;
+    max-width: 205px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main .get-started span,main .get-started .privacy{
+    color: white;
 }
 
 /* footer */
