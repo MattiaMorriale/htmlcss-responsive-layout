@@ -417,20 +417,76 @@ main .about-us{
     padding: 80px 30px 90px;
 }
 
+main .about-us .container .text strong{
+    color: rgb(151,146,228);
+
+
+    font-size: 2.5em;
+}
+
 main .about-us .container .text p:nth-of-type(1){
-    margin: 55px 0 70px;
+    margin: 55px 0 50px;
+
+    font-size: 19px;
+
+    line-height: 40px;
 }
 
 main .about-us .container .text p:nth-of-type(2){
     margin-bottom: 55px;
+
+    font-size: 19px;
+
+    line-height: 40px;
+}
+
+main .about-us .container .help .img-box{
+    width: 100%;
+
+    position: relative;
+}
+
+main .about-us .container .help .img-box i{
+    color: rgb(151,146,228);
+
+    display: block;
+
+    font-size: 65px;
+
+    top: 30px;
+    left: 130px;
+
+    position: absolute;
+}
+
+main .about-us .container .help .img-box img{
+    height: 180px;
+    width: 180px;
+
+    border-radius: 50%;
 }
 
 main .about-us .container .help strong{
     display: block;
 
+    font-size: 2.2em;
+
     margin: 30px 0;
 
     color: rgb(151,146,228);
+}
+
+main .about-us .container .help a{
+    background-color: #9792e4;
+
+    text-decoration: none;
+
+    color: white;
+
+    border-radius: 25px;
+
+    padding: 8px 15px;
+
 }
 
 /* get-started */
@@ -565,14 +621,35 @@ footer p{
 
     /* 5 */
 
-    main .about-us{
+    main .about-us .container{
         display: flex;
+
+        padding: 0 30px;
 
         gap: 90px;
     }
 
-    main .about-us .text{
-        width: 100%;
+    main .about-us .container .text{
+        padding-right: 30px;
+    }
+
+    main .about-us .container .text strong{
+        font-size: 4em;
+    }
+
+    main .about-us .container .help strong{
+        font-size: 1.5em;
+    }
+
+    main .about-us .container .help a{
+        font-size: 13px;
+    }
+
+    
+main .about-us .container .text p:nth-of-type(1){
+        font-size: 20px;
+
+        margin-top: 30px;
     }
 }
 
@@ -718,7 +795,7 @@ footer p{
         display: flex;
         justify-content: center;
 
-        padding: 80px 0 90px;
+        padding: 80px 0 60px;
 
         
     }
@@ -731,5 +808,11 @@ footer p{
 
     main .about-us .text{
         width: 100%;
+    }
+
+    main .about-us .container .help strong{
+        font-size: 1.5em;
+
+        width: 200px;
     }
 }
