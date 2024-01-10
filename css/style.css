@@ -85,7 +85,7 @@ main .container .col .card{
 
     width: 100%;
 
-    padding: 40px 20px 0 20px;
+    padding: 40px 30px 0 30px;
 
     background-color: #b5ddff;
 
@@ -103,7 +103,7 @@ main .container .col .card .text-2{
 }
 
 main .container .col .card .text strong{
-    font-size: 20px;
+    font-size: 1.5em;
     font-weight: 700;
 
     color: #0084fd;
@@ -163,21 +163,39 @@ main .plannig{
     justify-content: center;
     flex-wrap: wrap;
 
-    gap: 40px;
+    gap: 30px;
 
     background-color:rgb(151,146,228);
 
-    padding: 40px 30px;
+    padding: 50px 30px;
 }
 
 main .plannig  .container .img-text{
     margin-bottom: 40px;
 }
 
+main .plannig  .container .img-text img{
+    width: 100%;
+}
+
 main .plannig  .container .img-text strong{
     display: block;
+
+    font-size: 2em;
+    font-weight: 700;
+
+    color: white;
+
     
     padding: 60px 0;
+}
+
+main .plannig  .container .img-text p{
+    color: white;
+
+    font-size: 1rem;
+
+    line-height: 25px;
 }
 
 main .plannig .container .app-dev{
@@ -189,19 +207,45 @@ main .plannig .container .app-dev{
 
     padding: 25px 25px;
 
-    
-    height: 615px;
     width: 100%;
 
     background-color: white;
+}
+
+main .plannig .container .app-dev img{
+    width: 100%;
 }
 
 main .plannig  .container .app-dev .text{
     text-align: center;
 }
 
+main .plannig  .container .app-dev .text strong{
+    display: block;
+
+    padding-top: 15px;
+
+    font-size: 1.5em;
+}
+
 main .plannig .container .app-dev .text p{
-    padding:30px 0 ;
+    padding: 30px 0 ;
+
+    font-style: italic;
+
+    line-height: 30px;
+}
+
+main .plannig .container .app-dev .text a{
+    color: black;
+
+    display: inline-block;    
+
+    background-color: rgb(151,146,228);
+
+    padding: 15px;
+
+    border-radius: 50%;
 }
 
 /* testimonials */
@@ -425,6 +469,16 @@ footer p{
         width: 55%;
     }
 
+    /* 2 */
+
+    main .plannig .container .img-text .box-img{
+        padding: 40px 30px 0 30px;
+    }
+
+    main .plannig .container .img-text .box-img img{
+        width: 100%;
+    }
+
     /* 3 */
 
     main .testimonials .col .card{
@@ -561,7 +615,11 @@ footer p{
     }
 
     main .plannig .container .app-dev{
-        height: 550px;
+        margin-left: 50px;
+    }
+
+    main .plannig .container .app-dev .box-img{
+        width: 75%;
     }
 
     /* 3 */
