@@ -14,7 +14,7 @@ nav{
 
     height: 75px;
     
-    background-color:rgb(0,132,253);
+    background-color:#0084fd;
 }
 
 nav .menu{
@@ -49,6 +49,8 @@ nav .menu .int ul{
 
 nav .menu .int ul .link{
     display: none;
+
+    font-size: 16px;
 
     text-decoration: none;
 
@@ -115,6 +117,8 @@ main .container .col .card .text-2 strong{
 
 main .container .col .card .text-2 i{
     font-size: 80px;
+
+    color: #0084fd;
 }
 
 main .container .col .card .text p{
@@ -397,6 +401,8 @@ main .benefits .col .card strong:nth-of-type(2){
 
 main .benefits .col .card p{
     margin-bottom: 30px;
+
+    line-height: 30px;
 }
 
 main .benefits .col .card a{
@@ -563,6 +569,13 @@ main .get-started span,main .get-started .privacy{
 /* footer */
 
 footer{
+    padding: 40px 30px;
+
+    background-color: #222222;
+    color: white;
+}
+
+footer .pdp{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -571,14 +584,18 @@ footer{
 
     text-align: center;
 
-    padding: 40px 30px;
+    max-width: 410px;
 
-    background-color: #222222;
-    color: white;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-footer p{
+footer .pdp p{
     width: 100%;
+}
+
+footer .pdp div a{
+    color: #9792e4;
 }
 
 /* query */
@@ -696,7 +713,6 @@ main .about-us .container .text p:nth-of-type(1){
         margin-top: 30px;
     }
 }
-
 @media screen and (min-width: 992px){
      
     /* nav */
