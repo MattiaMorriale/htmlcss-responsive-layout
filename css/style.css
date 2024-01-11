@@ -68,7 +68,7 @@ nav .menu .int ul .link:nth-of-type(5){
 
 /* container */
 
-main .container .col{
+main .container .card-box{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -78,7 +78,7 @@ main .container .col{
 }
 
 
-main .container .col .card{
+main .container .card-box .card{
     display: flex;
     justify-content: center;
 
@@ -94,7 +94,7 @@ main .container .col .card{
 
 }
 
-main .container .col .card .text-2{
+main .container .card-box .card .text-2{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -103,24 +103,24 @@ main .container .col .card .text-2{
     text-align: center;
 }
 
-main .container .col .card .text strong{
+main .container .card-box .card .text strong{
     font-size: 1.5em;
     font-weight: 700;
 
     color: #0084fd;
 }
 
-main .container .col .card .text-2 strong{
+main .container .card-box .card .text-2 strong{
     padding-top: 30px;
 }
 
-main .container .col .card .text-2 i{
+main .container .card-box .card .text-2 i{
     font-size: 80px;
 
     color: #0084fd;
 }
 
-main .container .col .card .text p{
+main .container .card-box .card .text p{
     padding: 40px 0;
 
     line-height: 30px;
@@ -131,7 +131,7 @@ main .container .col .card .text p{
     color:#5a6e7f ;
 }
 
-main .container .col .card .text a{
+main .container .card-box .card .text a{
     color: white;
 
     font-weight: 700;
@@ -146,13 +146,13 @@ main .container .col .card .text a{
     background-color: #0084fd;
 }
 
-main .container .col .card .img{
+main .container .card-box .card .img{
     display: flex;
 
     margin-top: 40px;
 }
 
-main .container .col .card .img  div img{
+main .container .card-box .card .img  div img{
     display: block;
 
     width: 100%;
@@ -612,28 +612,28 @@ footer .pdp div a{
 
     /* 1 */
 
-    main .container .col{
+    main .container .card-box{
         justify-content: space-around;
     }
     
-    main .container .col .card{
+    main .container .card-box .card{
         display: flex;
         align-items: flex-start;
 
         width: calc(100% / 3 - 25px);
     }
 
-    main .container .col .card:nth-of-type(1){
+    main .container .card-box .card:nth-of-type(1){
         justify-content: flex-start;
 
         width: calc(100% / 3 * 2 - 15px);
     }
 
-    main .container .col .card .text a{
+    main .container .card-box .card .text a{
         padding: 15px 10%;
     }
 
-    main .container .col .card .img{
+    main .container .card-box .card .img{
         display: flex;
         justify-content: flex-start;
 
@@ -739,38 +739,38 @@ main .about-us .container .text p:nth-of-type(1){
         justify-content: center;
     }
 
-     main .container .col{
+     main .container .card-box{
         justify-content: space-around;
         max-width: 1200px;
     }
     
-    main .container .col .card{
+    main .container .card-box .card{
         width: calc(100% / 3 - 25px);
     }
 
-    main .container .col .card .text{
+    main .container .card-box .card .text{
         width: 100%;
     }
 
-    main .container .col .card:nth-of-type(1) .text p{
+    main .container .card-box .card:nth-of-type(1) .text p{
         width: 75%;
 
         padding: 40px 0 55px;
     }
 
-    main .container .col .card:nth-of-type(1) .img{
+    main .container .card-box .card:nth-of-type(1) .img{
         display: block;
         margin-right: 5%;
         width: 80%;
     }
 
-    main .container .col .card:nth-of-type(1) .img div img{
+    main .container .card-box .card:nth-of-type(1) .img div img{
         height: 100%;
         width: 100%;
     }
         
 
-    main .container .col .card:nth-of-type(1){
+    main .container .card-box .card:nth-of-type(1){
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
@@ -781,7 +781,7 @@ main .about-us .container .text p:nth-of-type(1){
         
     }
 
-    main .container .col .card:nth-of-type(1) .img{
+    main .container .card-box .card:nth-of-type(1) .img{
         align-self: flex-end;
     }
 
