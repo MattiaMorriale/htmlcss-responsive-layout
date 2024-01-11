@@ -44,7 +44,6 @@ nav .menu .int ul{
     justify-content: center;
 
     gap: 30px;
-
 }
 
 nav .menu .int ul .link{
@@ -133,7 +132,6 @@ main .container .col .card .text p{
 }
 
 main .container .col .card .text a{
-
     color: white;
 
     font-weight: 700;
@@ -269,7 +267,6 @@ main .testimonials .col{
 
     gap: 30px;
 
-
     padding: 70px 30px 100px;
 }
 
@@ -299,8 +296,7 @@ main .testimonials .col .text p{
     font-size: 1.3em;
 }
 
-main .testimonials .col  .card{
-    
+main .testimonials .col  .card{  
     width: 100%;
 
     text-align: center;
@@ -323,7 +319,6 @@ main .testimonials .col .card .box-img img{
 
 main .testimonials .col  .card .ct{
     margin: 30px 0 40px;
-
 
     color: white;
 
@@ -375,7 +370,6 @@ main .benefits .col{
     flex-wrap: wrap;
 
     gap: 30px;
-
 }
 
 main .benefits .col .card{
@@ -428,7 +422,6 @@ main .about-us{
 
 main .about-us .container .text strong{
     color: rgb(151,146,228);
-
 
     font-size: 2.5em;
 }
@@ -495,7 +488,6 @@ main .about-us .container .help a{
     border-radius: 25px;
 
     padding: 8px 15px;
-
 }
 
 /* get-started */
@@ -542,7 +534,6 @@ main .get-started strong:nth-of-type(2){
 }
 
 main .get-started .button{
-
     display: block;
 
     text-decoration: none;
@@ -605,21 +596,19 @@ footer .pdp div a{
 
 @media screen and (min-width: 768px){
     
-        /* nav */
+    /* nav */
 
-        nav{
-            display: flex;
-            justify-content: center;
-    
-            padding: 0;
-        }
-    
-        nav .link{
-            display: flex;
-            justify-content: space-between;
-        }
+    nav{
+        display: flex;
+        justify-content: center;
 
-        
+        padding: 0;
+    }
+
+    nav .link{
+        display: flex;
+        justify-content: space-between;
+    }
 
     /* 1 */
 
@@ -672,9 +661,6 @@ footer .pdp div a{
         height: 280px;
 
         text-align: justify;
-
-
-
     }
 
     /* 4 */
@@ -716,6 +702,7 @@ main .about-us .container .text p:nth-of-type(1){
         margin-top: 30px;
     }
 }
+
 @media screen and (min-width: 992px){
      
     /* nav */
@@ -734,7 +721,6 @@ main .about-us .container .text p:nth-of-type(1){
         width: 100%;
 
         max-width: 1200px;
-
     }
 
     nav .menu .int ul .link{
@@ -754,14 +740,12 @@ main .about-us .container .text p:nth-of-type(1){
     }
 
      main .container .col{
-
         justify-content: space-around;
         max-width: 1200px;
     }
     
     main .container .col .card{
         width: calc(100% / 3 - 25px);
-        
     }
 
     main .container .col .card .text{
@@ -799,7 +783,6 @@ main .about-us .container .text p:nth-of-type(1){
 
     main .container .col .card:nth-of-type(1) .img{
         align-self: flex-end;
-
     }
 
 
@@ -859,8 +842,6 @@ main .about-us .container .text p:nth-of-type(1){
         justify-content: center;
 
         padding: 80px 0 60px;
-
-        
     }
 
     main .about-us .container{
